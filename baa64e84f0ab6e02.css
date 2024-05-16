@@ -1,0 +1,363 @@
+.PostsFilter_filter__DNqKb {
+    position: sticky;
+    left: 0;
+    bottom: .3125rem;
+    right: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    padding-top: 2.5rem;
+    pointer-events: none
+}
+
+.PostsFilter_filter__DNqKb[aria-current=true] {
+    position: fixed
+}
+
+.PostsFilter_filter__DNqKb[aria-current=true] .PostsFilter_inner__jAT78 {
+    background: #19191e
+}
+
+.PostsFilter_filter__DNqKb .PostsFilter_inner__jAT78 {
+    transition: background .4s ease-in-out;
+    padding: 1.875rem;
+    border-radius: 3.125rem
+}
+
+.PostsFilter_filter__DNqKb ul {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    gap: .375rem
+}
+
+.PostsFilter_filter__DNqKb ul button {
+    appearance: none;
+    white-space: nowrap;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    padding: .75rem 1.25rem;
+    font-size: 1.375rem;
+    letter-spacing: -.01em;
+    line-height: 1;
+    border-radius: 1.875rem;
+    background: #fff;
+    color: #232222;
+    transition: .4s ease-in-out;
+    transition-property: backgorund, color;
+    cursor: none;
+    pointer-events: all
+}
+
+.PostsFilter_filter__DNqKb ul button:hover,
+.PostsFilter_filter__DNqKb ul button[data-current=true] {
+    background: #0019ff;
+    color: #f4f4f4
+}
+
+.PostsFilter_filter__DNqKb .PostsFilter_filterButton__dnTQC {
+    appearance: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    margin-top: .9375rem;
+    font-size: 1.0625rem;
+    letter-spacing: -.01em;
+    line-height: 1;
+    border-radius: 1.875rem;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 1.125rem 1.5rem 1.125rem 3.83125rem;
+    cursor: none;
+    pointer-events: all
+}
+
+.PostsFilter_filter__DNqKb .PostsFilter_filterButton__dnTQC[aria-current=true] i:before {
+    transform: rotate(45deg) translateY(.1875rem)
+}
+
+.PostsFilter_filter__DNqKb .PostsFilter_filterButton__dnTQC[aria-current=true] i:after {
+    transform: rotate(-45deg) translateY(-.1875rem) scale(1)
+}
+
+.PostsFilter_filter__DNqKb .PostsFilter_filterButton__dnTQC[aria-current=true]>span span {
+    transform: translateY(-100%)
+}
+
+.PostsFilter_filter__DNqKb .PostsFilter_filterButton__dnTQC i {
+    position: absolute;
+    top: 50%;
+    left: 1.5rem;
+    margin-top: -.1875rem;
+    width: 1.4375rem;
+    height: .375rem
+}
+
+.PostsFilter_filter__DNqKb .PostsFilter_filterButton__dnTQC i:after,
+.PostsFilter_filter__DNqKb .PostsFilter_filterButton__dnTQC i:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: .0625rem;
+    background: currentColor;
+    transition: .3s ease-in-out;
+    transition-property: transform
+}
+
+.PostsFilter_filter__DNqKb .PostsFilter_filterButton__dnTQC i:before {
+    top: 0
+}
+
+.PostsFilter_filter__DNqKb .PostsFilter_filterButton__dnTQC i:after {
+    bottom: 0;
+    transform: scaleX(.7) translateX(-15%)
+}
+
+.PostsFilter_filter__DNqKb .PostsFilter_filterButton__dnTQC>span {
+    position: relative;
+    overflow: hidden
+}
+
+.PostsFilter_filter__DNqKb .PostsFilter_filterButton__dnTQC>span span {
+    display: block;
+    transition: transform .4s ease-in-out
+}
+
+:is(.PostsFilter_filter__DNqKb .PostsFilter_filterButton__dnTQC>span span)+span {
+    position: absolute;
+    top: 100%;
+    left: 0
+}
+
+@media (min-width:1024px) {
+    .PostsFilter_filter__DNqKb {
+        bottom: .9375rem
+    }
+    .PostsFilter_filter__DNqKb .PostsFilter_inner__jAT78 {
+        background: #00000047;
+        padding: .46875rem;
+        backdrop-filter: blur(.1875rem)
+    }
+    .PostsFilter_filter__DNqKb ul {
+        gap: .27063rem;
+        flex-direction: row
+    }
+    .PostsFilter_filter__DNqKb ul button {
+        padding: .46875rem .8125rem;
+        font-size: 1.08188rem
+    }
+}
+
+.Tags2_block__BmA8z {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .28125rem
+}
+
+.Tags2_block__BmA8z li {
+    padding: 0 .625rem;
+    background: #d9d9d9;
+    color: #000;
+    border-radius: 1.875rem;
+    font-size: .75rem;
+    line-height: 1.5625rem
+}
+
+.Tags2_block__BmA8z li.Tags2_primary__Il3RQ {
+    background: #000;
+    color: #fff
+}
+
+.WorkItem_block__1_Klx:hover picture img {
+    scale: 1.1;
+    transition-duration: 1s
+}
+
+.WorkItem_block__1_Klx picture {
+    position: relative;
+    display: block;
+    border-radius: .625rem;
+    margin-bottom: 1.5625rem;
+    overflow: hidden
+}
+
+.WorkItem_block__1_Klx picture img {
+    display: block;
+    aspect-ratio: 465/433;
+    object-fit: cover;
+    transition: scale .4s ease-in-out
+}
+
+.WorkItem_block__1_Klx picture .WorkItem_tags___YPJh {
+    position: absolute;
+    left: 1.125rem;
+    bottom: 1.125rem;
+    padding-right: 1.125rem
+}
+
+.WorkItem_block__1_Klx h6 {
+    font-size: 1.5rem;
+    line-height: 1.25;
+    letter-spacing: -.01em;
+    max-width: 26.875rem;
+    font-family: var(--ivy-presto);
+    font-weight: 100
+}
+
+.WorkItem_block__1_Klx h6 b {
+    font-family: var(--twk-everett);
+    font-weight: 300
+}
+
+.WorksList_hero__UyZHT {
+    display: flex;
+    padding: 14.6875rem 0 2.375rem;
+    min-height: 70vh;
+    align-items: flex-end
+}
+
+.WorksList_hero__UyZHT .WorksList_wrapper__SXbLb {
+    width: 100%
+}
+
+.WorksList_hero__UyZHT h1 {
+    font-size: 6.875rem;
+    line-height: 1;
+    letter-spacing: -.03em;
+    margin-top: auto;
+    overflow: hidden
+}
+
+.WorksList_hero__UyZHT h1 em {
+    display: inline-block;
+    font-size: .75rem;
+    font-style: normal;
+    margin-left: .625rem;
+    vertical-align: middle;
+    letter-spacing: -.04em;
+    margin-top: -4em;
+    overflow: hidden
+}
+
+@media (min-width:1024px) {
+    .WorksList_hero__UyZHT {
+        padding: 8.125rem 0 2.5rem;
+        min-height: 75vh
+    }
+    .WorksList_hero__UyZHT h1 {
+        font-size: 22.5rem
+    }
+    .WorksList_hero__UyZHT h1 em {
+        font-size: 1.375rem;
+        margin-top: -7.9em;
+        margin-left: .9375rem
+    }
+}
+
+.WorksList_worksList__VtTxV {
+    position: relative;
+    padding-bottom: 3.75rem
+}
+
+@media (min-width:960px) {
+    .WorksList_worksList__VtTxV {
+        padding-bottom: 9.375rem
+    }
+}
+
+.WorksList_items__Biza2 {
+    display: flex;
+    gap: 2.8125rem;
+    flex-wrap: wrap
+}
+
+.WorksList_items__Biza2 article {
+    flex: 0 0 100%;
+    max-width: 100%
+}
+
+@media (min-width:960px) {
+    .WorksList_items__Biza2 {
+        gap: 3.125rem
+    }
+    .WorksList_items__Biza2 article {
+        flex: 0 0 calc(50% - 1.5625rem);
+        max-width: calc(50% - 1.5625rem)
+    }
+}
+
+.InsightsList_block__dzLuK {
+    position: relative;
+    background: #f4f4f4;
+    color: #111114;
+    padding: 6.25rem 0
+}
+
+.InsightsList_block__dzLuK .InsightsList_wrapper__5TWil {
+    position: relative
+}
+
+.InsightsList_block__dzLuK .InsightsList_items__sAhHi {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.875rem
+}
+
+@media (min-width:960px) {
+    .InsightsList_block__dzLuK .InsightsList_items__sAhHi {
+        grid-template-columns: repeat(2, 1fr)
+    }
+}
+
+@media (min-width:1024px) {
+    .InsightsList_block__dzLuK {
+        padding: 7.5rem 0
+    }
+    .InsightsList_block__dzLuK .InsightsList_categories__HuBk_ {
+        gap: .8125rem;
+        margin-bottom: 5.3125rem
+    }
+    .InsightsList_block__dzLuK .InsightsList_categories__HuBk_ button {
+        font-size: .9375rem;
+        padding: .625rem 2.8125rem;
+        height: 4.6875rem
+    }
+    .InsightsList_block__dzLuK .InsightsList_items__sAhHi {
+        grid-template-columns: repeat(3, 1fr)
+    }
+}
+
+.InsightsList_nothingFound__T9RzO {
+    font-size: 1.875rem;
+    margin: 1em 0;
+    padding: 0 0 6.25rem
+}
+
+.InsightsList_loading__eCO6E {
+    display: flex;
+    margin: 5rem 0 0;
+    justify-content: center
+}
+
+.InsightsList_loading__eCO6E.InsightsList_cat_switch__Wxo78 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsla(0, 0%, 96%, .4);
+    display: flex;
+    margin: 0;
+    z-index: 10
+}
+
+.InsightsList_loading__eCO6E svg {
+    display: block;
+    width: 4.375rem;
+    height: 4.375rem;
+    opacity: .7;
+    margin: auto
+}

@@ -1,0 +1,443 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0
+}
+
+a,
+a:hover,
+u {
+    text-decoration: none
+}
+
+li,
+ul {
+    list-style: none
+}
+
+figure,
+li,
+ul {
+    padding: 0;
+    margin: 0
+}
+
+input {
+    outline: 0;
+    border: 0
+}
+
+dd,
+dl,
+dt {
+    padding: 0;
+    margin: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 300
+}
+
+img {
+    width: 100%;
+    height: auto
+}
+
+fieldset {
+    border: 0;
+    padding: 0
+}
+
+:root {
+    --root-size: 370
+}
+
+@media (min-width:1024px) {
+    :root {
+        --root-size: 800
+    }
+}
+
+html {
+    font-size: 14px;
+    width: 100vw
+}
+
+@media (min-width:370px) {
+    html {
+        font-size: 16px
+    }
+}
+
+@media (min-width:768px) {
+    html {
+        font-size: calc(10 * (100vw / var(--root-size)))
+    }
+}
+
+.dg.ac {
+    z-index: 1000 !important;
+    padding: .9375rem
+}
+
+.dg.main.a {
+    float: left !important
+}
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: var(--twk-everett);
+    font-weight: 300;
+    line-height: 1.5;
+    user-select: none;
+    max-width: 100%
+}
+
+body.scroll-disable,
+html.scroll-disable {
+    overflow: hidden
+}
+
+@media (hover:hover) {
+    body,
+    body a,
+    body button,
+    body input,
+    html,
+    html a,
+    html button,
+    html input {
+        cursor: none
+    }
+}
+
+.clearfix {
+    position: relative;
+    overflow: hidden
+}
+
+html {
+    background: #000
+}
+
+body {
+    --header-primary-height: 4.0625rem;
+    opacity: 0
+}
+
+body.animation-started {
+    opacity: 1
+}
+
+@media (min-width:768px) {
+    body {
+        --header-primary-height: 6.25rem
+    }
+}
+
+* {
+    box-sizing: border-box
+}
+
+img {
+    max-width: 100%;
+    display: block
+}
+
+a,
+button,
+input[type=button],
+input[type=submit] {
+    color: inherit
+}
+
+.CustomCursor_circle__u3T4P,
+.CustomCursor_dot__2zUH9 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000000;
+    pointer-events: none;
+    transform-origin: 50% 50%;
+    border-radius: 50%;
+    mix-blend-mode: difference;
+    opacity: 0
+}
+
+@media (hover:none) {
+    .CustomCursor_circle__u3T4P,
+    .CustomCursor_dot__2zUH9 {
+        display: none
+    }
+}
+
+.CustomCursor_circle__u3T4P.CustomCursor_leave__ielCr,
+.CustomCursor_dot__2zUH9.CustomCursor_leave__ielCr {
+    opacity: 0
+}
+
+.CustomCursor_circle__u3T4P div,
+.CustomCursor_dot__2zUH9 div {
+    content: "";
+    display: flex;
+    position: relative;
+    border-radius: 50%
+}
+
+.CustomCursor_circle__u3T4P div>span,
+.CustomCursor_dot__2zUH9 div>span {
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    margin: auto;
+    font-size: .5rem;
+    color: #fff;
+    text-transform: capitalize
+}
+
+.CustomCursor_circle__u3T4P div>span span,
+.CustomCursor_dot__2zUH9 div>span span {
+    display: block;
+    translate: 0 100%
+}
+
+.CustomCursor_circle__u3T4P {
+    transition: .3s ease-in-out;
+    transition-property: background;
+    margin: -1.5625rem 0 0 -1.5625rem
+}
+
+.CustomCursor_circle__u3T4P.CustomCursor_mousedown__0Lnnv {
+    scale: .7
+}
+
+.CustomCursor_circle__u3T4P div {
+    width: 3.125rem;
+    height: 3.125rem;
+    border: .04375rem solid #fff
+}
+
+.CustomCursor_dot__2zUH9 {
+    margin: -.15625rem 0 0 -.15625rem
+}
+
+.CustomCursor_dot__2zUH9 div {
+    width: .3125rem;
+    height: .3125rem;
+    background: #fff
+}
+
+.Button_button__M6NfZ {
+    display: inline-flex;
+    font-size: .6875rem;
+    color: #fff;
+    user-select: none;
+    appearance: none;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+    font-family: inherit;
+    text-decoration: none !important
+}
+
+.Button_button__M6NfZ.Button_light__7Eo_i i,
+.Button_button__M6NfZ.Button_light__7Eo_i>span {
+    background: #fff;
+    color: #000
+}
+
+.Button_button__M6NfZ.Button_anchor__sC15_ i.Button_arrow__zV5M_ svg {
+    transform: rotate(270deg)
+}
+
+.Button_button__M6NfZ>span {
+    position: relative;
+    display: flex;
+    padding: 0 1.5625rem;
+    background: #111114;
+    line-height: 1.2;
+    border-radius: 1.875rem;
+    align-items: center;
+    height: 2.8125rem;
+    white-space: nowrap;
+    transition: .4s ease-in-out;
+    transition-property: background, color
+}
+
+.Button_button__M6NfZ>span>span {
+    position: relative;
+    overflow: hidden
+}
+
+.Button_button__M6NfZ>span>span:after {
+    content: attr(data-title);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateY(100%)
+}
+
+.Button_button__M6NfZ>span>span span,
+.Button_button__M6NfZ>span>span:after {
+    display: block;
+    transition: .2s ease-in-out;
+    transition-property: transform
+}
+
+.Button_button__M6NfZ i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8125rem;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    background: #111114;
+    transition: .4s ease-in-out;
+    transition-property: background, color
+}
+
+.Button_button__M6NfZ i.Button_arrow__zV5M_ svg {
+    transform: rotate(135deg)
+}
+
+.Button_button__M6NfZ i svg {
+    fill: currentColor;
+    width: .8125rem;
+    height: .8125rem;
+    transition: transform .2s ease-in-out
+}
+
+:is(.Button_button__M6NfZ:not(.Button_not-hover__paNt4):hover, .Button_button__M6NfZ.Button_active__5qLFI) [data-title]:after {
+    transform: translateY(0)
+}
+
+:is(.Button_button__M6NfZ:not(.Button_not-hover__paNt4):hover, .Button_button__M6NfZ.Button_active__5qLFI) [data-title] span {
+    transform: translateY(-100%)
+}
+
+:is(.Button_button__M6NfZ:not(.Button_not-hover__paNt4):hover, .Button_button__M6NfZ.Button_active__5qLFI) i svg {
+    transform: rotate(180deg)
+}
+
+.ConsentPopup_block__T2OS0 {
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    max-width: calc(100% - 2.5rem);
+    background: #15151a;
+    display: flex;
+    gap: 1.25rem;
+    flex-direction: column;
+    font-size: .775rem;
+    z-index: 999;
+    color: #fff;
+    padding: .75rem .75rem .75rem 1.25rem;
+    border-radius: 1.25rem
+}
+
+.ConsentPopup_block__T2OS0 span {
+    letter-spacing: -.01em
+}
+
+.ConsentPopup_block__T2OS0 span a {
+    text-decoration: underline
+}
+
+.ConsentPopup_block__T2OS0 span a:hover {
+    text-decoration: none
+}
+
+@media (min-width:1024px) {
+    .ConsentPopup_block__T2OS0 {
+        flex-direction: row;
+        align-items: center;
+        border-radius: 2.5rem
+    }
+}
+
+@font-face {
+    ascent-override: 100%;
+    font-family: __TWKEverett_033e5b;
+    src: url(/_next/static/media/c074ebc4f8a60050-s.p.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    font-family: __TWKEverett_Fallback_033e5b;
+    src: local("Arial");
+    ascent-override: 93.46%;
+    descent-override: 19.52%;
+    line-gap-override: 9.25%;
+    size-adjust: 108.07%
+}
+
+.__className_033e5b {
+    font-family: __TWKEverett_033e5b, __TWKEverett_Fallback_033e5b;
+    font-weight: 300;
+    font-style: normal
+}
+
+@font-face {
+    ascent-override: 100%;
+    font-family: __IvyPresto_4afacd;
+    src: url(/_next/static/media/9431a58d2dabef30-s.p.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    font-family: __IvyPresto_Fallback_4afacd;
+    src: local("Arial");
+    ascent-override: 138.07%;
+    descent-override: 35.01%;
+    line-gap-override: 0.00%;
+    size-adjust: 85.68%
+}
+
+.__className_4afacd {
+    font-family: __IvyPresto_4afacd, __IvyPresto_Fallback_4afacd;
+    font-weight: 100;
+    font-style: normal
+}
+
+@font-face {
+    ascent-override: 100%;
+    font-family: __NewTitle_d9715c;
+    src: url(/_next/static/media/45c7e5f62fcd5e3e-s.p.woff2) format("woff2");
+    font-display: swap;
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: __NewTitle_Fallback_d9715c;
+    src: local("Arial");
+    ascent-override: 188.80%;
+    descent-override: 43.72%;
+    line-gap-override: 17.89%;
+    size-adjust: 50.32%
+}
+
+.__className_d9715c {
+    font-family: __NewTitle_d9715c, __NewTitle_Fallback_d9715c;
+    font-weight: 700;
+    font-style: normal
+}

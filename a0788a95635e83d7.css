@@ -1,0 +1,41 @@
+.IntroText_block__Qz_AF {
+    position: relative;
+    overflow: hidden;
+    padding: 5.625rem 0 2.5rem
+}
+
+.IntroText_block__Qz_AF h2 {
+    font-size: 2rem;
+    line-height: 1.15;
+    font-family: var(--ivy-presto);
+    font-weight: 100;
+    text-align: center
+}
+
+.IntroText_block__Qz_AF h2 b {
+    font-family: var(--twk-everett);
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: .5em;
+    border-radius: 1em;
+    border: .0625rem solid;
+    vertical-align: middle;
+    padding: .3em .4em
+}
+
+.IntroText_block__Qz_AF img {
+    display: inline-block;
+    width: .898em;
+    aspect-ratio: 24/20;
+    object-fit: cover;
+    vertical-align: middle
+}
+
+@media (min-width:1024px) {
+    .IntroText_block__Qz_AF {
+        padding: 9.375rem 0 3.75rem
+    }
+    .IntroText_block__Qz_AF h2 {
+        font-size: 3.5rem
+    }
+}
